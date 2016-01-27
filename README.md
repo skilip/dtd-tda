@@ -15,6 +15,25 @@ Drupal stelt een aantal eisen aan je (lokale) host:
  * PHP - Voor het uitvoeren van PHP-scripts
  * MySQL – voor het opslaan van de gegevens van de website
  
+=============================
+### Uitleg
+
+#### Webserver
+De webserver is een computerprogramma dat op verzoek van een bezoeker van een website de bijbehorende internetpagina's doorgeeft, zodat deze te zien zijn voor de bezoeker.
+
+#### Apache
+Apache is een webserver en wordt vaak gebruikt om website's op te hosten in een Linux omgeving.
+
+#### PHP
+PHP is de afkorting van `PHP: Hypertext Preprocessor`, een (gratis) open-source scripttaal die met behulp van webserver-software (meestal Apache) werkt. Drupal is voornamelijk geschreven in PHP.
+
+#### MySQL
+Een opensource database die vooral vaak op het web wordt gebuikt, vaak in combinatie met PHP. Een database is een centrale plaats op een webserver om gegevens op te slaan.
+
+
+=============================
+
+ 
 ### XAMPP
 Gelukkig is het afzonderlijk downloaden en installeren van de verschillende onderdelen niet nodig. Er bestaan een aantal mooie alles-in-een pakketten, zoals [**XAMPP**](https://www.apachefriends.org/index.html). Je kunt deze gratis downloaden en met enkele klikken van de muis installeren.
 
@@ -38,7 +57,7 @@ De webserver staat nu weliswaar op onze lokale schijf, maar draait nog niet. We 
 Het XAMPP Control Panel verschijnt.
 
 Klik op de [Start]-knop rechts van “MySQL”.
-
+=============================
 ## Drupal
 ### Download
 Wanneer je naar je nieuwe localhost gaat, komt je op het dashboard.
