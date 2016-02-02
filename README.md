@@ -2,11 +2,33 @@
 
 ![test](http://drupaltrainingday.nl/sites/all/themes/trainingday/css/images/DTD2015-seal-golden-100x100.png)
 
-* Links naar info
-* Links naar chatkanalen en fora
-* Uninstaller VM
-* Installatie instructies [**XAMPP**](https://www.apachefriends.org/index.html)
+## Inleiding
+Leuk dat je na de Drupal Training Day enthousiast bent geraakt om meer met Drupal te gaan doen. Om je een beetje op weg te helpen hebben we een document geschreven waarin we je wat achtergrondinformatie geven over de benodigdheden om zelf Drupal te draaien op je Desktop/Laptop. We hebben het document specifiek gericht op Windows en OSX gebruikers, Linux gebruikers hoeven we waarschijnlijk niet meer uit te leggen hoe je een webserver installeert.
 
+Naast de uitleg over een lokale Drupal installatie geven we je ook graag informatie over plekken waar je meer informatie kunt vinden of hulp kunt vragen.
+
+Succes met installeren en we hopen je graag nog eens tegen te komen op één van de vele Drupal events.
+
+## Waar vind ik informatie?
+Stel je komt er zelf even niet meer uit met een Drupal vraag en je hebt de hulp van iemand anders nodig. Gelukkig zijn er voldoende plekken waar je behulpzame mensen kunt vinden.
+
+### Google
+Beetje een open deur maar de meeste informatie vind je verspreid over het internet op verschillende blogs, sites, fora. De voertaal binnen de Drupal community is Engels. Probeer je zoektermen daarom zoveel mogelijk engelstalig in te voeren.
+
+### Drupal.org
+De internationale Drupal community website. Naast het downloaden van Drupal en vele modules vind je hier ook documentatie en een forum. Veel van de nuttige informatie haal je vaak uit de issue queues van modules. Zoek goed door de bestaande issue queue van een module voordat je een nieuw issue aanmaakt. De kans is groot dat iemand anders voor jou een zelfde vraag heeft gehad en mogelijk zelfs al heeft opgelost.
+
+### Drupal.nl
+De Nederlandse Drupal community website. Hier vind je informatie over Drupal events, Nieuws, vacatures en een forum om je vragen te stellen.
+
+### IRC
+Voor de meesten wellicht onbekend maar veel gebruikt binnen de Drupal Community. Kort samengevat is het een grote chatserver met duizenden chatrooms. Mensen met een gemeenschappelijke interesse verzamelen zich binnen zo'n chatroom om informatie met elkaar uit te wisselen. Om gebruik te maken van IRC heb je client software nodig. Voor Windows zijn mIRC en X-Chat bekende clients, voor OSX zijn dit LimeChat, Snak en Colloquy. Helemaal nieuw met IRC? Lees dan de [**"IRC for beginners"**](http://www.linuxchix.org/content/irc-for-beginners) tutorial eens door.
+
+Handige chatrooms om te joinen zijn:
+
+* `#drupal`
+* `#drupal-support`
+* `#drupal-nl`
 
 ## Installatie
 Drupal stelt een aantal eisen aan je (lokale) host:
@@ -15,14 +37,16 @@ Drupal stelt een aantal eisen aan je (lokale) host:
  * PHP - Voor het uitvoeren van PHP-scripts
  * MySQL – voor het opslaan van de gegevens van de website
  
+ Mogelijk heb je tijdens de Drupal Training Day al een lokale webserver geinstalleerd. Je kunt de installatiestappen dan overslaan.
+ 
 =============================
-### Uitleg
+### Begrippen
 
 #### Webserver
 De webserver is een computerprogramma dat op verzoek van een bezoeker van een website de bijbehorende internetpagina's doorgeeft, zodat deze te zien zijn voor de bezoeker.
 
 #### Apache
-Apache is een webserver en wordt vaak gebruikt om website's op te hosten in een Linux omgeving.
+Apache is webserver software en wordt vaak gebruikt om website's op te hosten. Apache wordt gebruikt voor meer dan de helft van alle websites wereldwijd.
 
 #### PHP
 PHP is de afkorting van `PHP: Hypertext Preprocessor`, een (gratis) open-source scripttaal die met behulp van webserver-software (meestal Apache) werkt. Drupal is voornamelijk geschreven in PHP.
@@ -33,7 +57,7 @@ Een opensource database die vooral vaak op het web wordt gebuikt, vaak in combin
 
 =============================
 
- 
+
 ### XAMPP
 Gelukkig is het afzonderlijk downloaden en installeren van de verschillende onderdelen niet nodig. Er bestaan een aantal mooie alles-in-een pakketten, zoals [**XAMPP**](https://www.apachefriends.org/index.html). Je kunt deze gratis downloaden en met enkele klikken van de muis installeren.
 
@@ -43,9 +67,9 @@ De laatste versie van XAMPP is [**hier**](http://sourceforge.net/projects/xampp/
 
 #### Installatie
 
-Is XAMPP gedownload, dan open je de Windows Verkenner. Vind het XAMPP-bestand (vaak in de Downloads map) en open het. 
+Is XAMPP gedownload, dan open je de Windows Verkenner of Finder op OSX. Vind het XAMPP-bestand (vaak in de Downloads map) en open het. Het installatie-scherm word nu geopend. Doorloop de installatie en klik op finish. 
 
-Het installatie-scherm word nu geopend. Doorloop de installatie en klik op finish. Mogelijk vraagt jouw Windows Firewall om toestemming. Geef deze toestemming.
+`Mogelijk vraagt Windows Firewall om toestemming. Geef deze toestemming.`
 
 Er is nu een een map aangemaakt op het hoogste niveau van je systeem, over het algemeen is dit in 'C:\'. De aangemaakte map heet 'xampp'.
 
@@ -57,10 +81,12 @@ De webserver staat nu weliswaar op onze lokale schijf, maar draait nog niet. We 
 Het XAMPP Control Panel verschijnt.
 
 Klik op de [Start]-knop rechts van “MySQL”.
+
 =============================
+
 ## Drupal
 ### Download
-Wanneer je naar je nieuwe localhost gaat, komt je op het dashboard.
+Wanneer je naar je nieuwe localhost gaat, kom je op het dashboard.
 Onderaan deze pagina staan een aantal logo's van bekende webapplicaties. Klik op het Drupal-logo.
 
 Je komt nu op een pagina waarop je verschillende webapplicaties kunt downloaden.
@@ -91,7 +117,3 @@ In dit scherm vraagt de installatie of je gebruik wil maken van 'Bitnami Cloud H
 De installatie wordt nu gestart. Zodra deze installatie klaar is, klik je op 'Finish'.
 
 Nu opent jouw eigen nieuwe Drupal-website, helemaal klaar voor gebruik!
-
-
-
-
